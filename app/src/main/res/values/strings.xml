@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CriminalIntent</string>
+
+    <!-- List screen -->
+    <string name="new_crime">New crime</string>
+    <string name="untitled_crime">(Untitled crime)</string>
+    <string name="solved_icon_description">Solved</string>
+    <string name="empty_list_message">No crimes on file. Suspiciously quiet.</string>
+    <string name="empty_list_button">Report a crime</string>
+
+    <!-- Detail screen -->
+    <string name="crime_title_label">Title</string>
+    <string name="crime_title_hint">Enter a title for the crime</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="crime_suspect_text">Choose suspect</string>
+    <string name="crime_report_text">Send crime report</string>
+    <string name="crime_photo_button_description">Take a photo of the crime scene</string>
+    <string name="crime_photo_image_description">Crime scene photo</string>
+    <string name="crime_photo_no_image_description">No crime scene photo yet</string>
+
+    <!-- Delete -->
+    <string name="delete_crime">Delete crime</string>
+    <string name="delete_crime_title">Delete this crime?</string>
+    <string name="delete_crime_message">The crime and its photo will be permanently removed.</string>
+    <string name="delete">Delete</string>
+
+    <!-- Crime report (shared through ACTION_SEND) -->
+    <string name="crime_report">%1$s - discovered on %2$s. %3$s. %4$s</string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_suspect">The suspect is %s</string>
+    <string name="crime_report_no_suspect">There is no suspect</string>
+    <string name="crime_report_subject">CriminalIntent crime report</string>
+    <string name="send_report">Send crime report via</string>
+
+    <!-- Errors -->
+    <string name="no_camera_app">No camera app found on this device</string>
+    <string name="no_contacts_app">No contacts app found on this device</string>
+    <string name="no_share_app">No app found to share the report</string>
+</resources>
